@@ -30,10 +30,10 @@ public class Crab_dance : MonoBehaviour
     {
         if (isGrounded)
         {
-            // Áp dụng lực nhảy
+            
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
 
-            // Không ở trên mặt đất sau khi nhảy
+           
             isGrounded = false;
         }
     }
