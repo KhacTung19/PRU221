@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Crab_dance : MonoBehaviour
 {
-    public float jumpForce = 10f;
+    public float jumpForce = 20f;
     public float jumpInterval = 2f;
 
     private bool isGrounded;
